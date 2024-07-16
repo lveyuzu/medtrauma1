@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities
+
+ body{
+
+    
+ }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: aliceblue;
+
+     
+  
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #666;
+  }
+  

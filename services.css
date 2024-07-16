@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities
+
+
+.body {
+
+  background-color: #6B977D ;
+  width: 100vw ;
+  height: 100vh ;
+
+
+}
+
+
+h1.custom-title {
+  font-family: 'Roboto', sans-serif;  
+  color: #4CAF50;  
+  margin-top: 250px;  
+  text-align: left;  
+  font-size: medium;
+}
+
+h1.caption {
+ margin-left:100px;
+ float:left;
+ 
+}
+
+
+.services-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(' ');
+  }
+  
+  .services-content {
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    float: left
+  }
+  
+ 
+
+  .services-page {
+    background-color: #137161;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  
+  .captionone {
+    text-align: center;
+    padding: 8px;
+  }
+ 
